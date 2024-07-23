@@ -35,6 +35,6 @@ const server = http.createServer(async (req, res) => {
   res.end();
 });
 
-server.listen(PORT, '0.0.0.0' () => {
+server.listen(PORT, '0.0.0.0', () => {
   console.log(`App listening on port: ${PORT}`);
 });
